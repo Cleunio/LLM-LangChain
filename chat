@@ -1,0 +1,5 @@
+from langchain_core.messages import HumanMessage
+ans = llm.invoke([HumanMessage(content="Hello! How are you?")])
+
+
+
